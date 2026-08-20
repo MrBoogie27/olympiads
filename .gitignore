@@ -1,0 +1,26 @@
+# VS Code
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+output/
+
+# Competitive programming temporary files
+in.txt
+out.txt
+main.cpp
+
+# Compiled files
+*.o
+*.exe
+*.out
+
+# System files
+.DS_Store
+Thumbs.db

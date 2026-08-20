@@ -1,0 +1,11 @@
+services:
+  cpp-dev:
+    build: .
+    container_name: olymps
+    volumes:
+      - .:/workspace
+      - ~/.ssh:/root/.ssh:ro
+    stdin_open: true
+    tty: true
+    environment:
+      - GIT_SSH_COMMAND=ssh -o StrictHostKeyChecking=accept-new

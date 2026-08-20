@@ -1,0 +1,656 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codeforces Training Schedule//ru
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Codeforces Orange Training 2026-2027
+X-WR-TIMEZONE:Europe/Moscow
+X-WR-CALDESC:План обучения для достижения оранжевого ранга на Codeforces
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:MSK
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:training-20260811-1@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260811T183000
+DTEND;TZID=Europe/Moscow:20260811T210000
+SUMMARY:Теория: Быстрая сортировка
+DESCRIPTION:Неделя 1\nТема: Теория: Быстрая сортировка\nРесурсы: https://e-maxx.ru/algo/sorting_quick https://cp-algorithms.com/\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260813-2@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260813T183000
+DTEND;TZID=Europe/Moscow:20260813T210000
+SUMMARY:Практика: Быстрая сортировка
+DESCRIPTION:Неделя 1\nТема: Практика: Быстрая сортировка\nРесурсы: https://e-maxx.ru/algo/sorting_quick\nЗадачи: https://codeforces.com/problemset/problem/977/A\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260815-3@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260815T120000
+DTEND;TZID=Europe/Moscow:20260815T140000
+SUMMARY:Практика: Сортировка доп.
+DESCRIPTION:Неделя 1\nТема: Практика: Сортировка доп.\nРесурсы: https://e-maxx.ru/algo/sorting_quick\nЗадачи: https://codeforces.com/problemset/problem/339/A\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260818-4@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260818T183000
+DTEND;TZID=Europe/Moscow:20260818T210000
+SUMMARY:Теория: Сортировка слиянием
+DESCRIPTION:Неделя 2\nТема: Теория: Сортировка слиянием\nРесурсы: https://e-maxx.ru/algo/merge_sort https://cp-algorithms.com/\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260820-5@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260820T183000
+DTEND;TZID=Europe/Moscow:20260820T210000
+SUMMARY:Практика: Сортировка слиянием
+DESCRIPTION:Неделя 2\nТема: Практика: Сортировка слиянием\nРесурсы: https://e-maxx.ru/algo/merge_sort\nЗадачи: https://codeforces.com/problemset/problem/451/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260822-6@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260822T120000
+DTEND;TZID=Europe/Moscow:20260822T140000
+SUMMARY:Практика: Инверсии
+DESCRIPTION:Неделя 2\nТема: Практика: Инверсии\nРесурсы: https://e-maxx.ru/algo/merge_sort\nЗадачи: https://codeforces.com/problemset/problem/58/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260825-7@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260825T183000
+DTEND;TZID=Europe/Moscow:20260825T210000
+SUMMARY:Теория: Двоичный поиск
+DESCRIPTION:Неделя 3\nТема: Теория: Двоичный поиск\nРесурсы: https://e-maxx.ru/algo/binary_search https://cp-algorithms.com/sequences/binary-search.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260826-8@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260826T183000
+DTEND;TZID=Europe/Moscow:20260826T210000
+SUMMARY:Практика: Бинарный поиск (дополнительно)
+DESCRIPTION:Неделя 3\nТема: Практика: Бинарный поиск (дополнительно)\nРесурсы: https://e-maxx.ru/algo/binary_search\nЗадачи: https://codeforces.com/problemset/problem/282/C https://codeforces.com/problemset/problem/519/E\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260915-9@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260915T183000
+DTEND;TZID=Europe/Moscow:20260915T210000
+SUMMARY:Теория: Скользящее окно
+DESCRIPTION:Неделя 4\nТема: Теория: Скользящее окно\nРесурсы: https://e-maxx.ru/algo/two_pointers https://cp-algorithms.com/sequences/two_pointers.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260917-10@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260917T183000
+DTEND;TZID=Europe/Moscow:20260917T210000
+SUMMARY:Практика: Скользящее окно
+DESCRIPTION:Неделя 4\nТема: Практика: Скользящее окно\nРесурсы: https://e-maxx.ru/algo/two_pointers https://cp-algorithms.com/sequences/two_pointers.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260919-11@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260919T120000
+DTEND;TZID=Europe/Moscow:20260919T140000
+SUMMARY:Практика: Скользящее окно
+DESCRIPTION:Неделя 4\nТема: Практика: Скользящее окно\nРесурсы: https://e-maxx.ru/algo/two_pointers\nЗадачи: https://codeforces.com/problemset/problem/327/A\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260922-12@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260922T183000
+DTEND;TZID=Europe/Moscow:20260922T210000
+SUMMARY:Контестная практика
+DESCRIPTION:Неделя 4\nТема: Контестная практика\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260924-13@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260924T183000
+DTEND;TZID=Europe/Moscow:20260924T210000
+SUMMARY:Теория: Dijkstra
+DESCRIPTION:Неделя 5\nТема: Теория: Dijkstra\nРесурсы: https://e-maxx.ru/algo/dijkstra https://cp-algorithms.com/graph/dijkstra.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260926-14@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260926T120000
+DTEND;TZID=Europe/Moscow:20260926T140000
+SUMMARY:Практика: Dijkstra
+DESCRIPTION:Неделя 5\nТема: Практика: Dijkstra\nРесурсы: https://e-maxx.ru/algo/dijkstra\nЗадачи: https://codeforces.com/problemset/problem/20/C\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20260929-15@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20260929T183000
+DTEND;TZID=Europe/Moscow:20260929T210000
+SUMMARY:Практика: Bellman-Ford
+DESCRIPTION:Неделя 5\nТема: Практика: Bellman-Ford\nРесурсы: https://e-maxx.ru/algo/bellman_ford\nЗадачи: https://acm.timus.ru/problem.aspx?space=1&num=1623\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261001-16@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261001T183000
+DTEND;TZID=Europe/Moscow:20261001T210000
+SUMMARY:Теория: Floyd-Warshall
+DESCRIPTION:Неделя 6\nТема: Теория: Floyd-Warshall\nРесурсы: https://e-maxx.ru/algo/floyd_warshall https://cp-algorithms.com/graph/floyd_warshall.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261003-17@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261003T120000
+DTEND;TZID=Europe/Moscow:20261003T140000
+SUMMARY:Практика: Floyd-Warshall
+DESCRIPTION:Неделя 6\nТема: Практика: Floyd-Warshall\nРесурсы: https://e-maxx.ru/algo/floyd_warshall\nЗадачи: https://codeforces.com/problemset/problem/21/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261006-18@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261006T183000
+DTEND;TZID=Europe/Moscow:20261006T210000
+SUMMARY:Контестная практика: Кратчайшие пути
+DESCRIPTION:Неделя 6\nТема: Контестная практика: Кратчайшие пути\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261008-19@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261008T183000
+DTEND;TZID=Europe/Moscow:20261008T210000
+SUMMARY:Теория: Крускал и DSU
+DESCRIPTION:Неделя 7\nТема: Теория: Крускал и DSU\nРесурсы: https://e-maxx.ru/algo/mst_kruskal https://e-maxx.ru/algo/dsu\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261010-20@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261010T120000
+DTEND;TZID=Europe/Moscow:20261010T140000
+SUMMARY:Практика: Крускал и DSU
+DESCRIPTION:Неделя 7\nТема: Практика: Крускал и DSU\nРесурсы: https://e-maxx.ru/algo/mst_kruskal\nЗадачи: https://codeforces.com/problemset/problem/1/A\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261013-21@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261013T183000
+DTEND;TZID=Europe/Moscow:20261013T210000
+SUMMARY:Теория: Алгоритм Прима
+DESCRIPTION:Неделя 8\nТема: Теория: Алгоритм Прима\nРесурсы: https://e-maxx.ru/algo/mst_prim https://cp-algorithms.com/graph/prim.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261015-22@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261015T183000
+DTEND;TZID=Europe/Moscow:20261015T210000
+SUMMARY:Практика: Прим
+DESCRIPTION:Неделя 8\nТема: Практика: Прим\nРесурсы: https://e-maxx.ru/algo/mst_prim\nЗадачи: https://codeforces.com/problemset/problem/160/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261017-23@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261017T120000
+DTEND;TZID=Europe/Moscow:20261017T140000
+SUMMARY:Контестная практика: Графы
+DESCRIPTION:Неделя 8\nТема: Контестная практика: Графы\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261020-24@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261020T183000
+DTEND;TZID=Europe/Moscow:20261020T210000
+SUMMARY:Теория: Классическое DP
+DESCRIPTION:Неделя 9\nТема: Теория: Классическое DP\nРесурсы: https://e-maxx.ru/algo/dp_intro https://cp-algorithms.com/dynamic_programming/\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261022-25@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261022T183000
+DTEND;TZID=Europe/Moscow:20261022T210000
+SUMMARY:Практика: DP
+DESCRIPTION:Неделя 9\nТема: Практика: DP\nРесурсы: https://e-maxx.ru/algo/dp_intro\nЗадачи: https://codeforces.com/problemset/problem/9/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261024-26@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261024T120000
+DTEND;TZID=Europe/Moscow:20261024T140000
+SUMMARY:Теория: DP на деревьях
+DESCRIPTION:Неделя 10\nТема: Теория: DP на деревьях\nРесурсы: https://e-maxx.ru/algo/tree_dp https://cp-algorithms.com/dynamic_programming/tree-DP.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261027-27@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261027T183000
+DTEND;TZID=Europe/Moscow:20261027T210000
+SUMMARY:Практика: DP на деревьях
+DESCRIPTION:Неделя 10\nТема: Практика: DP на деревьях\nРесурсы: https://e-maxx.ru/algo/tree_dp\nЗадачи: https://codeforces.com/problemset/problem/43/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261029-28@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261029T183000
+DTEND;TZID=Europe/Moscow:20261029T210000
+SUMMARY:Контестная практика: DP
+DESCRIPTION:Неделя 10\nТема: Контестная практика: DP\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261031-29@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261031T120000
+DTEND;TZID=Europe/Moscow:20261031T140000
+SUMMARY:Теория: Сегментное дерево
+DESCRIPTION:Неделя 11\nТема: Теория: Сегментное дерево\nРесурсы: https://e-maxx.ru/algo/segment_tree https://cp-algorithms.com/data_structures/segment_tree.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261103-30@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261103T183000
+DTEND;TZID=Europe/Moscow:20261103T210000
+SUMMARY:Практика: Segment Tree
+DESCRIPTION:Неделя 11\nТема: Практика: Segment Tree\nРесурсы: https://e-maxx.ru/algo/segment_tree\nЗадачи: https://codeforces.com/problemset/problem/52/E\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261105-31@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261105T183000
+DTEND;TZID=Europe/Moscow:20261105T210000
+SUMMARY:Теория: Fenwick Tree
+DESCRIPTION:Неделя 12\nТема: Теория: Fenwick Tree\nРесурсы: https://e-maxx.ru/algo/fenwick_tree https://cp-algorithms.com/data_structures/fenwick.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261107-32@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261107T120000
+DTEND;TZID=Europe/Moscow:20261107T140000
+SUMMARY:Практика: Fenwick
+DESCRIPTION:Неделя 12\nТема: Практика: Fenwick\nРесурсы: https://e-maxx.ru/algo/fenwick_tree\nЗадачи: https://codeforces.com/problemset/problem/835/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261110-33@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261110T183000
+DTEND;TZID=Europe/Moscow:20261110T210000
+SUMMARY:Контестная практика: Структуры данных
+DESCRIPTION:Неделя 12\nТема: Контестная практика: Структуры данных\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261112-34@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261112T183000
+DTEND;TZID=Europe/Moscow:20261112T210000
+SUMMARY:Теория: Monotonic Stack
+DESCRIPTION:Неделя 13\nТема: Теория: Monotonic Stack\nРесурсы: https://cp-algorithms.com/data_structures/stack_queue.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261114-35@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261114T120000
+DTEND;TZID=Europe/Moscow:20261114T140000
+SUMMARY:Практика: Monotonic Stack
+DESCRIPTION:Неделя 13\nТема: Практика: Monotonic Stack\nРесурсы: https://cp-algorithms.com/data_structures/stack_queue.html\nЗадачи: https://codeforces.com/problemset/problem/316/E3\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261117-36@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261117T183000
+DTEND;TZID=Europe/Moscow:20261117T210000
+SUMMARY:Теория: Z-функция
+DESCRIPTION:Неделя 14\nТема: Теория: Z-функция\nРесурсы: https://e-maxx.ru/algo/z_function https://cp-algorithms.com/string/z-algorithm.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261119-37@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261119T183000
+DTEND;TZID=Europe/Moscow:20261119T210000
+SUMMARY:Практика: Z-функция
+DESCRIPTION:Неделя 14\nТема: Практика: Z-функция\nРесурсы: https://e-maxx.ru/algo/z_function\nЗадачи: https://codeforces.com/problemset/problem/126/B\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261121-38@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261121T120000
+DTEND;TZID=Europe/Moscow:20261121T140000
+SUMMARY:Теория: KMP
+DESCRIPTION:Неделя 15\nТема: Теория: KMP\nРесурсы: https://e-maxx.ru/algo/prefix_function https://cp-algorithms.com/string/prefix-function.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261124-39@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261124T183000
+DTEND;TZID=Europe/Moscow:20261124T210000
+SUMMARY:Практика: KMP
+DESCRIPTION:Неделя 15\nТема: Практика: KMP\nРесурсы: https://e-maxx.ru/algo/prefix_function\nЗадачи: https://codeforces.com/problemset/problem/432/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261126-40@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261126T183000
+DTEND;TZID=Europe/Moscow:20261126T210000
+SUMMARY:Контестная практика: Строки
+DESCRIPTION:Неделя 15\nТема: Контестная практика: Строки\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261128-41@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261128T120000
+DTEND;TZID=Europe/Moscow:20261128T140000
+SUMMARY:Теория: Ахо-Корасик
+DESCRIPTION:Неделя 16\nТема: Теория: Ахо-Корасик\nРесурсы: https://e-maxx.ru/algo/aho_corasick https://cp-algorithms.com/string/aho_corasick.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261201-42@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261201T183000
+DTEND;TZID=Europe/Moscow:20261201T210000
+SUMMARY:Практика: Ахо-Корасик
+DESCRIPTION:Неделя 16\nТема: Практика: Ахо-Корасик\nРесурсы: https://e-maxx.ru/algo/aho_corasick\nЗадачи: https://codeforces.com/problemset/problem/346/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261203-43@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261203T183000
+DTEND;TZID=Europe/Moscow:20261203T210000
+SUMMARY:Теория: Комбинаторика
+DESCRIPTION:Неделя 17\nТема: Теория: Комбинаторика\nРесурсы: https://e-maxx.ru/algo/combinatorics https://e-maxx.ru/algo/inclusion_exclusion\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261205-44@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261205T120000
+DTEND;TZID=Europe/Moscow:20261205T140000
+SUMMARY:Практика: Комбинаторика
+DESCRIPTION:Неделя 17\nТема: Практика: Комбинаторика\nРесурсы: https://e-maxx.ru/algo/combinatorics\nЗадачи: https://codeforces.com/problemset/problem/402/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261208-45@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261208T183000
+DTEND;TZID=Europe/Moscow:20261208T210000
+SUMMARY:Теория: Модульная арифметика
+DESCRIPTION:Неделя 18\nТема: Теория: Модульная арифметика\nРесурсы: https://e-maxx.ru/algo/module_arithmetic https://e-maxx.ru/algo/module_inverse\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261210-46@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261210T183000
+DTEND;TZID=Europe/Moscow:20261210T210000
+SUMMARY:Практика: Модульная арифметика
+DESCRIPTION:Неделя 18\nТема: Практика: Модульная арифметика\nРесурсы: https://e-maxx.ru/algo/module_arithmetic\nЗадачи: https://codeforces.com/problemset/problem/696/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261212-47@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261212T120000
+DTEND;TZID=Europe/Moscow:20261212T140000
+SUMMARY:Контестная практика: Числа
+DESCRIPTION:Неделя 18\nТема: Контестная практика: Числа\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261215-48@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261215T183000
+DTEND;TZID=Europe/Moscow:20261215T210000
+SUMMARY:Теория: Функция Мебиуса
+DESCRIPTION:Неделя 19\nТема: Теория: Функция Мебиуса\nРесурсы: https://e-maxx.ru/algo/mobius_function https://cp-algorithms.com/algebra/phi-function.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261217-49@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261217T183000
+DTEND;TZID=Europe/Moscow:20261217T210000
+SUMMARY:Практика: Функция Мебиуса
+DESCRIPTION:Неделя 19\nТема: Практика: Функция Мебиуса\nРесурсы: https://e-maxx.ru/algo/mobius_function\nЗадачи: https://codeforces.com/problemset/problem/588/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261219-50@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261219T120000
+DTEND;TZID=Europe/Moscow:20261219T140000
+SUMMARY:Теория: Bitmask DP
+DESCRIPTION:Неделя 20\nТема: Теория: Bitmask DP\nРесурсы: https://e-maxx.ru/algo/bitmask_dp https://cp-algorithms.com/dynamic_programming/profile-dynamics.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261222-51@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261222T183000
+DTEND;TZID=Europe/Moscow:20261222T210000
+SUMMARY:Практика: Bitmask DP
+DESCRIPTION:Неделя 20\nТема: Практика: Bitmask DP\nРесурсы: https://e-maxx.ru/algo/bitmask_dp\nЗадачи: https://codeforces.com/problemset/problem/383/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261224-52@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261224T183000
+DTEND;TZID=Europe/Moscow:20261224T210000
+SUMMARY:Теория: Выпуклая оболочка
+DESCRIPTION:Неделя 21\nТема: Теория: Выпуклая оболочка\nРесурсы: https://e-maxx.ru/algo/convex_hull https://cp-algorithms.com/geometry/convex-hull.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261226-53@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261226T120000
+DTEND;TZID=Europe/Moscow:20261226T140000
+SUMMARY:Практика: Convex Hull
+DESCRIPTION:Неделя 21\nТема: Практика: Convex Hull\nРесурсы: https://e-maxx.ru/algo/convex_hull\nЗадачи: https://codeforces.com/problemset/problem/155/C\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261229-54@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261229T183000
+DTEND;TZID=Europe/Moscow:20261229T210000
+SUMMARY:Контестная практика: Геометрия
+DESCRIPTION:Неделя 21\nТема: Контестная практика: Геометрия\nРесурсы: https://codeforces.com/contests\nЗадачи: https://codeforces.com/contests\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20261231-55@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20261231T183000
+DTEND;TZID=Europe/Moscow:20261231T210000
+SUMMARY:Теория: Полиномиальный хеш
+DESCRIPTION:Неделя 23\nТема: Теория: Полиномиальный хеш\nРесурсы: https://e-maxx.ru/algo/string_hashing https://cp-algorithms.com/string/string-hashing.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20270102-56@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20270102T120000
+DTEND;TZID=Europe/Moscow:20270102T140000
+SUMMARY:Практика: Полиномиальный хеш
+DESCRIPTION:Неделя 23\nТема: Практика: Полиномиальный хеш\nРесурсы: https://e-maxx.ru/algo/string_hashing\nЗадачи: https://codeforces.com/problemset/problem/271/D\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20270105-57@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20270105T183000
+DTEND;TZID=Europe/Moscow:20270105T210000
+SUMMARY:Теория: Sqrt Decomposition
+DESCRIPTION:Неделя 25\nТема: Теория: Sqrt Decomposition\nРесурсы: https://e-maxx.ru/algo/sqrt_decomposition https://cp-algorithms.com/data_structures/sqrt-decomposition.html\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:training-20270107-58@codeforces.local
+DTSTAMP:20260811T182016Z
+DTSTART;TZID=Europe/Moscow:20270107T183000
+DTEND;TZID=Europe/Moscow:20270107T210000
+SUMMARY:Практика: Sqrt Decomposition
+DESCRIPTION:Неделя 25\nТема: Практика: Sqrt Decomposition\nРесурсы: https://e-maxx.ru/algo/sqrt_decomposition\nЗадачи: https://codeforces.com/problemset/problem/520/E\n
+LOCATION:macOS Calendar
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

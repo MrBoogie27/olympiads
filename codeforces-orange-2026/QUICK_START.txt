@@ -1,0 +1,129 @@
+================================================================================
+          ПЛАН ОБУЧЕНИЯ ДЛЯ ДОСТИЖЕНИЯ ОРАНЖЕВОГО РАНГА CODEFORCES
+================================================================================
+
+БЫСТРЫЙ СТАРТ (прочитайте это первым!)
+
+1. ОТКРОЙТЕ И ПРОЧИТАЙТЕ: START_HERE.md
+   Это главный файл с резюме всего плана
+
+2. ИМПОРТИРУЙТЕ В GOOGLE SHEETS:
+   - Откройте: https://docs.google.com/spreadsheets/d/1gY70sC3Im_pChMdXuhmTYXcr24Xph0O2ZDPW_Gzi8Us/
+   - Читайте инструкции в: SETUP.md
+   - Файлы для импорта в папке: progress/
+
+3. ИМПОРТИРУЙТЕ КАЛЕНДАРЬ:
+   - Откройте Календарь (Calendar.app) на Mac
+   - Файл → Импортировать
+   - Выберите: training-schedule.ics
+   - Подробнее в: CALENDAR_IMPORT.md
+
+4. НАЧНИТЕ УЧИТЬСЯ:
+   - Первый день: Вторник 10 августа 2026 в 18:30
+   - Смотрите расписание в Google Sheets
+   - Примеры кода в папке: code/
+
+================================================================================
+
+ВСЕ ФАЙЛЫ:
+
+📄 ДОКУМЕНТЫ (начните с этих):
+   - START_HERE.md         ⭐ ГЛАВНЫЙ ФАЙЛ - читайте первым
+   - README.md             Обзор проекта
+   - SETUP.md              Инструкции для Google Sheets
+   - CALENDAR_IMPORT.md    Импорт календаря в macOS
+   - FILES_GUIDE.md        Описание всех файлов
+
+📊 ДЛЯ GOOGLE SHEETS (CSV файлы в папке progress/):
+   - all-topics.csv                          Обзор 31 недели
+   - training-schedule-august-september.csv  Подробное расписание
+   - weekly-progress.csv                     Ваш прогресс
+
+🗓️ КАЛЕНДАРЬ:
+   - training-schedule.ics                   События для Calendar.app
+
+💻 КОД НА C++ (примеры в папке code/):
+   - week1-sorting/quicksort_mergesort.cpp   Сортировки
+   - week2-binary-search/binary_search.cpp   Бинарный поиск
+   - week3-sliding-window/sliding_window.cpp Скользящее окно
+   
+📚 РЕСУРСЫ (папка resources/):
+   - template.cpp                            Шаблон для старта
+   - algorithms-links.md                     Все ссылки на теорию
+
+================================================================================
+
+СТРУКТУРА:
+
+~/Documents/Olymps/codeforces-orange-2026/
+├── START_HERE.md ⭐ (НАЧНИТЕ ЗДЕСЬ)
+├── README.md
+├── SETUP.md
+├── CALENDAR_IMPORT.md
+├── FILES_GUIDE.md
+├── QUICK_START.txt (этот файл)
+├── training-schedule.ics
+├── code/
+│   ├── week1-sorting/
+│   ├── week2-binary-search/
+│   └── week3-sliding-window/
+├── resources/
+│   ├── template.cpp
+│   └── algorithms-links.md
+└── progress/
+    ├── all-topics.csv
+    ├── training-schedule-august-september.csv
+    └── weekly-progress.csv
+
+================================================================================
+
+РЕКОМЕНДУЕМЫЙ ПОРЯДОК:
+
+1. Прочитайте: START_HERE.md (5 мин)
+2. Прочитайте: README.md (3 мин)
+3. Следуйте: SETUP.md для Google Sheets (5 мин)
+4. Следуйте: CALENDAR_IMPORT.md для календаря (2 мин)
+5. Откройте VS Code: code ~/Documents/Olymps/codeforces-orange-2026/
+6. Начните учиться согласно расписанию в Google Sheets
+
+================================================================================
+
+ДАТА СТАРТА:
+
+Вторник 10 августа 2026 в 18:30
+Время в неделю: 5 часов (вт и чт по 2.5 часа, сб гибко)
+Целевой рейтинг: 2100+ (оранжевый)
+
+================================================================================
+
+КАЖДУЮ НЕДЕЛЮ:
+
+Вторник (18:30-21:00):  Изучаете теорию, примеры, шаблоны
+Четверг (18:30-21:00):  Решаете задачи из Codeforces
+Суббота (12:00-14:00):  Дополнительная практика или контест
+
+================================================================================
+
+БЫСТРЫЕ КОМАНДЫ:
+
+# Открыть проект в VS Code:
+cd ~/Documents/Olymps/codeforces-orange-2026/ && code .
+
+# Компилировать примеры:
+g++ -O2 code/week1-sorting/quicksort_mergesort.cpp -o prog && ./prog
+
+# Импортировать calendar (из терминала):
+open training-schedule.ics
+
+================================================================================
+
+СОВЕТ:
+
+Не пропускайте дни! Даже 2.5 часа в неделю достаточно для прогресса.
+Главное - регулярность и последовательность.
+
+Google Sheets: https://docs.google.com/spreadsheets/d/1gY70sC3Im_pChMdXuhmTYXcr24Xph0O2ZDPW_Gzi8Us/
+
+Удачи! 🚀
+
+================================================================================

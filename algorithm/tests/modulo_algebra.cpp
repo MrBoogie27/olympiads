@@ -93,55 +93,55 @@ void test_binary_pow_mod_properties() {
   cout << "test_binary_pow_mod_properties: PASSED\n";
 }
 
-// ===================== Тесты для devide =====================
+// ===================== Тесты для divide =====================
 
-void test_devide_basic() {
-  assert(devide(0, 1) == 0);
-  assert(devide(1, 1) == 1);
-  assert(devide(5, 1) == 5);
-  assert(devide(MOD - 1, 1) == MOD - 1);
-  cout << "test_devide_basic: PASSED\n";
+void test_divide_basic() {
+  assert(divide(0, 1) == 0);
+  assert(divide(1, 1) == 1);
+  assert(divide(5, 1) == 5);
+  assert(divide(MOD - 1, 1) == MOD - 1);
+  cout << "test_divide_basic: PASSED\n";
 }
 
-void test_devide_by_self() {
+void test_divide_by_self() {
   // x / x = 1 (mod MOD) для x ≠ 0
-  assert(devide(1, 1) == 1);
-  assert(devide(2, 2) == 1);
-  assert(devide(5, 5) == 1);
-  assert(devide(123456, 123456) == 1);
-  assert(devide(MOD - 1, MOD - 1) == 1);
-  cout << "test_devide_by_self: PASSED\n";
+  assert(divide(1, 1) == 1);
+  assert(divide(2, 2) == 1);
+  assert(divide(5, 5) == 1);
+  assert(divide(123456, 123456) == 1);
+  assert(divide(MOD - 1, MOD - 1) == 1);
+  cout << "test_divide_by_self: PASSED\n";
 }
 
-void test_devide_inverse() {
+void test_divide_inverse() {
   // Проверка: x / y = x * y^(-1)
   // Умножаем результат деления обратно на y, должны получить x
   for (ll x = 1; x < 20; ++x) {
     for (ll y = 1; y < 20; ++y) {
-      ll result = devide(x, y);
+      ll result = divide(x, y);
       assert(multiply(result, y) == x);
     }
   }
-  cout << "test_devide_inverse: PASSED\n";
+  cout << "test_divide_inverse: PASSED\n";
 }
 
-void test_devide_large() {
+void test_divide_large() {
   // Деление больших чисел
-  assert(devide(MOD - 1, 2) == (MOD - 1) / 2);  // (MOD-1)/2 * 2 = MOD - 1
-  assert(devide(MOD - 1, MOD - 1) == 1);
-  assert(devide(MOD, 1) == 0);  // MOD ≡ 0
-  cout << "test_devide_large: PASSED\n";
+  assert(divide(MOD - 1, 2) == (MOD - 1) / 2); // (MOD-1)/2 * 2 = MOD - 1
+  assert(divide(MOD - 1, MOD - 1) == 1);
+  assert(divide(MOD, 1) == 0); // MOD ≡ 0
+  cout << "test_divide_large: PASSED\n";
 }
 
-void test_devide_roundtrip() {
-  // Проверка через умножение: a == devide(multiply(a, b), b)
+void test_divide_roundtrip() {
+  // Проверка через умножение: a == divide(multiply(a, b), b)
   for (ll a = 1; a < 30; ++a) {
     for (ll b = 1; b < 30; ++b) {
       ll prod = multiply(a, b);
-      assert(devide(prod, b) == a);
+      assert(divide(prod, b) == a);
     }
   }
-  cout << "test_devide_roundtrip: PASSED\n";
+  cout << "test_divide_roundtrip: PASSED\n";
 }
 
 int main() {
@@ -157,12 +157,12 @@ int main() {
   test_binary_pow_large_exp();
   test_binary_pow_mod_properties();
 
-  cout << "\n=== Тесты для devide ===\n";
-  test_devide_basic();
-  test_devide_by_self();
-  test_devide_inverse();
-  test_devide_large();
-  test_devide_roundtrip();
+  cout << "\n=== Тесты для divide ===\n";
+  test_divide_basic();
+  test_divide_by_self();
+  test_divide_inverse();
+  test_divide_large();
+  test_divide_roundtrip();
 
   cout << "\n✅ Все тесты пройдены!\n";
   return 0;

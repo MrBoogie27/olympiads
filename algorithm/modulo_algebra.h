@@ -3,12 +3,15 @@
 using namespace std;
 typedef long long ll;
 
-const int MOD = 998244353;
+// const int MOD = 998'244'353;
+const int MOD = 1e9 + 7;
+// const int MOD = 1e9+87;
 
 ll multiply(ll x, ll y) {
   return (x * y) % MOD;
 }
 
+// Быстрое возведение в степень по модулю
 ll binary_pow(ll x, ll pow) {
   ll answer = 1;
 

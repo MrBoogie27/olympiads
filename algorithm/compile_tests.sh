@@ -67,6 +67,8 @@ run_test "geometry" "$TESTS_DIR/geometry_test.cpp" "$BUILD_DIR/geometry_test"
 run_test "fenwick_tree" "$TESTS_DIR/fenwick_tree_test.cpp" "$BUILD_DIR/fenwick_tree_test"
 run_test "hanois_towers" "$TESTS_DIR/hanois_towers_test.cpp" "$BUILD_DIR/hanois_towers_test"
 run_test "aho_corasik" "$TESTS_DIR/aho_corasik_test.cpp" "$BUILD_DIR/aho_corasik_test"
+run_test "prime_numbers" "$TESTS_DIR/prime_numbers_test.cpp" "$BUILD_DIR/prime_numbers_test"
+run_test "combinatorics" "$TESTS_DIR/combinatorics_test.cpp" "$BUILD_DIR/combinatorics_test"
 
 # Итоговый отчёт
 echo "=========================================="
